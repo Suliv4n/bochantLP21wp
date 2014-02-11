@@ -1,0 +1,77 @@
+/*
+ Theme Name:   child
+ Theme URI:    http://localhost/child/
+ Description:  Twenty Fourteen Child Theme
+ Author:       Sul
+ Author URI:   http://example.com
+ Template:     twentythirteen
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url(../twentythirteen/style.css);
+
+header#masthead
+{
+	background:url(img/sona.jpg)no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+header#masthead a{
+	color:#aaaaaa;
+}
+
+.home-link h1,.home-link h2{
+	color:#dddddd; 
+}
+
+.navbar{
+	background-color: #000000;
+}
+
+#map{
+	width:800px;
+	height:500px;
+	margin:auto;
+	margin-top:15px; 
+}
+
+.popup h1{
+	font-size:16px;
+}
+
+#page{
+	background:url(img/sona.jpg)no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+
+.hentry{
+	width:800px;
+	margin:auto;
+	margin-top : 20px;
+	margin-bottom : 20px;
+	background : rgba(0,0,0,0.9);
+	color:white;
+	padding-left : 10px;
+	padding-right:10px;
+	border-radius : 5px 5px 5px 5px;
+}
+
+.entry-header a
+{
+	color:white;
+}
+
+.entry-header h1
+{
+	text-align : center;
+	
+}
+
+footer{
+display:none;
+}
